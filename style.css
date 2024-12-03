@@ -1,0 +1,69 @@
+
+/*PROPRIETES GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
+  }
+  
+  a {
+      text-decoration: none; /*Enlève les surlignements des a*/
+      color: black; /*Mettre en noir tout les a de la page*/
+  }
+  
+  li {
+      list-style-type: none; /*Enlève les puces des li*/
+  }
+
+  .flex {
+    display: flex; /*Côte à côte*/
+    flex-wrap: wrap; /*Si ça rendre pas tout, retour à la ligne*/
+}
+
+.spaceBetween {
+    justify-content: space-between; /*Mettre des espaces*/
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.container {  
+    max-width: 1000px; /*Ds container tjs mettre ls propriétés max width et with*/
+    width: 100%;
+    margin: auto; /*c'est égal à margin-right et margin-left=auto*/
+    display: flex;
+}
+
+.width40 {
+    width:400px;
+}
+
+
+.bgyellow {
+    background-color: yellow;
+}
+
+.bgblueviolet {
+    background-color: blueviolet;
+}
+
+.bggreenyellow {
+    background-color: greenyellow;
+}
+
+.bggreen {
+    background-color: green;
+}
+
+
+
+/*SECTION PHOTO RECETTE*/
+.photoRecette {
+    width: 300px;   
+}
+
+.photoRecette img {
+    width: 100%;
+    object-fit: cover;
+}
